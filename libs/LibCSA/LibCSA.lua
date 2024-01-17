@@ -23,10 +23,8 @@ Description: This library serves to provide a global  enhancement of the center 
 					Format is "function(line, messageParams, doReset)", where line is a ZO_CenterScreenAnnouncementCountdownLine object.
 ]]--
 
-local libLoaded
-local LIB_NAME, VERSION = "LibCSA", 2.1
-local lib, oldminor = LibStub:NewLibrary(LIB_NAME, VERSION)
-if not lib then return end
+local lib = {}
+LibCSA = lib
 
 local CSA = CENTER_SCREEN_ANNOUNCE
 local CSA_LINE_TYPE_COUNTDOWN = ZO_CenterScreenAnnouncementCountdownLine.GetLineType({}) -- we grab the local variable with this 'hack'

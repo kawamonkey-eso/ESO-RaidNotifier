@@ -7,14 +7,6 @@
 ## DependsOn: LibAddonMenu-2.0>=28 LibUnits2
 ## OptionalDependsOn: LibGroupSocket
 
-libs/LibStub/LibStub.lua
-libs/LibCustomTitles/LibTitleLocale.lua
-libs/LibCustomTitles/LibCustomTitles.lua
-libs/LibCustomTitles/Titles/Kyoma.lua
-libs/LibCustomTitles/Titles/Woeler.lua
-libs/LibCustomTitles/Titles/Valve.lua
-libs/LibCustomTitles/Titles/Memus.lua
-
 libs/LibCSA/LibCSA.lua
 
 UltimateHandler.lua

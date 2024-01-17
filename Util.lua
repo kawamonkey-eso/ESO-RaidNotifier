@@ -31,8 +31,8 @@ Util.RefCounter = RefCounter
 
 do
 
-	--local LGPS = LibStub("LibGPS2")
-	--local Lib3D = LibStub("Lib3D")
+	--local LGPS = LibGPS2
+	--local Lib3D = Lib3D
 
 	local GetMapPlayerPosition = GetMapPlayerPosition
 
